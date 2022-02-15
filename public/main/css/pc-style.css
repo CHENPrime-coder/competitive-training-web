@@ -1,0 +1,224 @@
+#header{
+    position: fixed;
+    width: 100vw;
+    background-color: rgb(220, 249, 253);
+    height: 4em;
+    box-shadow: 0 0 2px 1px #8888;
+}
+#header h3{ 
+    color: rgb(68, 58, 58);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    color: rgb(68, 58, 58);
+    margin: 0;
+}
+#aside{
+    width: 8em;
+    height: 100vw;
+    top: 4em;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 0px 7px -6px #5E5E5E;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#meun{
+    width: 8em;
+}
+#info{
+    position: absolute;
+    left: 8.5em;
+    top: 4.5em;
+}
+#home_head{
+    display: flex;
+}
+#description{
+    width: 70vw;
+    margin-right: 1em;
+}
+#rightHead{
+    width: 15em;
+    height: 15em;
+    float: right;
+}
+#cells{
+    display: flex;
+    align-items: center;
+}
+#planDailyDetail{
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 24vw;
+}
+#objectContainer{
+    height: auto;
+    display: block;
+}
+#item{
+    width: 86vw;
+    margin-top: 1em;
+}
+#card_header,#card_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#dialog_footer,#dialog_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#card_footer{
+    margin-top: 1em;
+}
+#home{
+    position: fixed;
+}
+#imgFile{
+    position: absolute;
+    top: -4.75em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+#chooseImgFile{
+    margin-top: 5em;
+}
+#previewHead{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: -25vw;
+}
+#PFMbodys{
+    height: 30vw;
+    overflow-y: scroll;
+}
+#PFMbodys h4{
+    margin: 0;
+}
+#headImgbutton{
+    width:18vw;
+}
+#onelist{
+    width: 90vw;
+    margin-top: 1em;
+}
+#taskTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#taskpluer{
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+}
+#members{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#members *{
+    margin: 0.5em;
+}
+#list,#daily,#plan,#studioInfo{
+    overflow-y: scroll;
+    height: 40vw;
+}
+#prom_tabs{
+    width: 90vw;
+}
+#taskBodyFormFrame,#dailyBodyFormFrame,#planBodyFormFrame{
+    overflow-y: scroll;
+    max-height: 20em;
+}
+#enddateForm{
+    margin-left: 1em;
+}
+#studentsAvatarDiv{
+    margin: 1em;
+    margin-bottom: 0;
+}
+#studentsAvatarForm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: max-content;
+    height: 10vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#studentsAvatar:hover{
+    box-shadow: 0px 0px 4px 1px #409eff
+}
+.selectStudent{
+    border: 5px solid #409eff;
+}
+#prom_tabs{
+    overflow-y: scroll;
+    height: 42vw;
+}
+#plan,#daily{
+    width: 90vw;
+}
+h3{
+    margin: 0;
+}
+#daily_card,#plan_card{
+    margin-top: 1em;
+}
+#reporter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#studio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#studio_card{
+    width: 20vw;
+    margin: 1em;
+}
+#studio_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#studio_icon{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#studioInfo_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 89.5vw;
+    height: 15vw;
+    background-image: url("../../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sheadicon{
+    position: relative;
+    top: 5em;
+}
+#studioInfo_header h1{
+    position: re;
+    top: 12em;
+}
+#studioInfo_body{
+    background-color: aliceblue;
+    height: 30vw;
+}

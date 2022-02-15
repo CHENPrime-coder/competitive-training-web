@@ -1,0 +1,136 @@
+#members{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    left: 5em;
+    top: 6em;
+    height: 15em;
+    overflow-y: scroll;
+}
+body{
+    color: #606266;
+    margin: 0;
+}
+#members *{
+    margin: 0.5em;
+}
+#studioInfo{
+    height: 40vw;
+}
+#studioInfo_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vw;
+    background-image: url("../../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sheadicon{
+    box-shadow: 0 0 10px 2px #409eff;
+    position: relative;
+    top: 5em;
+}
+#studioInfo_body{
+    box-shadow: 0 0 10px 2px #409eff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 32vw;
+}
+#studioInfo_body h1{
+    position: relative;
+    top: 2.5em;
+    height: 1em;
+    margin: 0;
+}
+#studioInfo_info{
+    position: relative;
+    width: 80vw;
+}
+#chooseImgFile{
+    margin-top: 5em;
+}
+#headImgbutton{
+    width:18vw;
+}
+#previewHead{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: -25vw;
+}
+#imgFile{
+    position: absolute;
+    top: -4.75em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+#studio_operation{
+    position: absolute;
+    top: 40em;
+    width: 80vw;
+}
+#studio_operation h1{
+    position: relative;
+    top: 0;
+}
+#operation{
+    position: relative;
+    top: 1em;
+}
+#home_head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80vw;
+    position: relative;
+    left: -1.5em;
+}
+#description{
+    width: 70vw;
+    margin-right: 1em;
+}
+#planDailyDetail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+}   
+#objectContainer{   
+    height: auto;
+    display: block;
+}
+#item{
+    width: 45w;
+    margin-top: 1em;
+}
+#card_header,#card_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#dialog_footer,#dialog_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#card_footer{
+    margin-top: 1em;
+}
+#onegread{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
+}
+#greadinfo{
+    max-height: 100px;
+    overflow-y: scroll;
+}

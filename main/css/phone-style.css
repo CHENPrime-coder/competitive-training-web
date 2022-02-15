@@ -1,0 +1,106 @@
+#header{
+    position: fixed;
+    width: 170vw;
+    background-color: rgb(220, 249, 253);
+    height: 4em;
+    box-shadow: 0 0 2px 2px #8888;
+}
+#header h3{
+    color: rgb(68, 58, 58);
+}
+body{
+    color: rgb(68, 58, 58);
+    margin: 0;
+}
+#aside{
+    width: 8em;
+    height: 150vw;
+    top: 4em;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 0px 7px -6px #5E5E5E;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#meun{
+    width: 8em;
+}
+#info{
+    position: absolute;
+    left: 8.5em;
+    top: 4.5em;
+}
+#home_head{
+    display: flex;
+}
+#description{
+    width: 70vw;
+    margin-right: 1em;
+}
+#rightHead{
+    width: 15em;
+    height: 15em;
+    float: right;
+}
+#cells{
+    display: flex;
+    align-items: center;
+}
+#planDailyDetail{
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 80vw;
+}
+#objectContainer{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+#item{
+    width: 120vw;
+    margin-top: 1em;
+}
+#card_header,#card_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#dialog_footer,#dialog_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#PFMbodys{
+    height: 60vw;
+    overflow-y: scroll;
+}
+#PFMbodys h4{
+    margin: 0;
+}
+#imgFile{
+    position: absolute;
+    top: -4.75em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+#chooseImgFile{
+    margin-top: 5em;
+}
+#previewHead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -3em;
+    left: -3em;
+}
+body{
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+#headImgbutton{
+    width:50vw;
+}
